@@ -1,0 +1,5 @@
+/Users/rayjoy/Documents/svn/client/tank2/script/../cocosstudio/cocosstudio/ccs/bigPic   f9a0f88d1d139aaa0fc4bbf401c087f9
+/Users/rayjoy/Documents/svn/client/tank2/script/../cocosstudio/cocosstudio/ccs/particle   c2464d4d8c85f9cda5ca75bc86de35b8
+/Users/rayjoy/Documents/svn/client/tank2/script/../cocosstudio/cocosstudio/ccs/font   cb958947fe21d968456ee577af8f4156
+/Users/rayjoy/Documents/svn/client/tank2/script/../cocosstudio/cocosstudio/sound   51fe3e3eb476a44e3ff7003e98cd3dd5
+/Users/rayjoy/Documents/svn/client/tank2/script/../cocosstudio/cocosstudio/spine   2dcdba17eac0e6e63e48a666abb62604

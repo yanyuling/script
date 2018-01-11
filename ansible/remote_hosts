@@ -1,0 +1,9 @@
+[demo]
+demo1 ansible_ssh_host= ansible_ssh_port=10220 ansible_ssh_user=rayjoy
+
+[game_publish]
+alpha ansible_ssh_host=192.168.8.81 ansible_ssh_port=22 ansible_ssh_user=root
+cn_uc ansible_ssh_host=139.199.173.160 ansible_ssh_port=10220 ansible_ssh_user=rayjoy
+shenji ansible_ssh_host=123.207.99.117 ansible_ssh_port=10220 ansible_ssh_user=rayjoy
+out ansible_ssh_host=119.29.171.20 ansible_ssh_port=10220 ansible_ssh_user=rayjoy
+mailiang ansible_ssh_host=123.207.242.204 ansible_ssh_port=10220 ansible_ssh_user=opsteam

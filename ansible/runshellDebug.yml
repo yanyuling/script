@@ -1,0 +1,24 @@
+---
+- hosts: '{{ hosts }}'
+  remote_user: '{{ ansible_ssh_user }}'
+
+  tasks:
+    - name: publish code with sudo
+      shell: bash /data/autodeploy/pullPatchDebug.sh
+      sudo: yes
+      when: need_sudo == 'yes'
+      register: publish_code_sudo
+    - debug: var=publish_code_sudo.stderr
+      when: need_sudo == 'yes' and publish_code_sudo.stderr is defined and publish_code_sudo.stderr !=''
+    - debug: var=publish_code_sudo.stdout_lines
+      when: need_sudo == 'yes' and publish_code_sudo.stdout_lines is defined and publish_code_sudo.stdout_lines !=''
+
+    - name: publish code
+      shell: bash /data/autodeploy/pullPatchDebug.sh
+      when: need_sudo == 'no'
+      register: publish_code
+    - debug: var=publish_code.stderr
+      when: need_sudo == 'no' and publish_code.stderr is defined and publish_code.stderr !=''
+    - debug: var=publish_code.stdout_lines
+      when: need_sudo == 'no' and publish_code.stdout_lines is defined and publish_code.stdout_lines !=''
+

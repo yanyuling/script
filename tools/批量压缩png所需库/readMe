@@ -1,0 +1,13 @@
+安装libpng 和 pngquant
+
+1.双击两个压缩包解压开
+
+cd libpng-1.6.28
+
+./configure
+
+make
+
+sudo make install
+
+pngquant 同上
